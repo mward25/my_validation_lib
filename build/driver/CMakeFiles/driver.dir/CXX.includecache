@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../getValidInt.hpp
+string
+-
+
+../getYorN.hpp
+
+/home/miles/cpp_stuff/my_validation_lib/driver/driver.cpp
+iostream
+-
+getValidInt.hpp
+/home/miles/cpp_stuff/my_validation_lib/driver/getValidInt.hpp
+getYorN.hpp
+/home/miles/cpp_stuff/my_validation_lib/driver/getYorN.hpp
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/miles/cpp_stuff/my_validation_lib/getYorN.cpp
+iostream
+-
+climits
+-
+getYorN.hpp
+/home/miles/cpp_stuff/my_validation_lib/getYorN.hpp
+
+/home/miles/cpp_stuff/my_validation_lib/getYorN.hpp
+
