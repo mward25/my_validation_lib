@@ -26,9 +26,10 @@ int getValidInt(string promptMessage, string failMessage, int minVal, int maxVal
 
 	// Variables
 	int inputInt = minVal -1;
-
+	bool valid = true;
 	do 
 	{
+			valid = true;
 			// Get input
 			cin >> inputInt;
 
@@ -39,7 +40,7 @@ int getValidInt(string promptMessage, string failMessage, int minVal, int maxVal
 				cin.ignore(BIGNUM, ENDLINE);
 
 				// inputInt is set to a value that will ensure the loop will continue
-				inputInt = minVal -1;
+				valid = false;
 
 				// the User was wrong, so we tell them
 				cout << failMessage << endl;
@@ -49,7 +50,7 @@ int getValidInt(string promptMessage, string failMessage, int minVal, int maxVal
 				// the User was wrong, so we tell them
 				cout << failMessage;
 			}
-		} while (inputInt < minVal || inputInt > maxVal);
+		} while (inputInt < minVal || inputInt > maxVal || valid == false);
 	// return the valid integer
 	return inputInt;
 }
