@@ -3,5 +3,5 @@
 
 driver/CMakeFiles/driver.dir/driver.cpp.o
  ../getValidInt.hpp
- ../getYorN.hpp
+ ../getYOrN.hpp
  /home/miles/cpp_stuff/my_validation_lib/driver/driver.cpp

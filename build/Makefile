@@ -180,32 +180,32 @@ getValidInt.cpp.s:
 	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getValidInt.cpp.s
 .PHONY : getValidInt.cpp.s
 
-getYorN.o: getYorN.cpp.o
+getYOrN.o: getYOrN.cpp.o
 
-.PHONY : getYorN.o
+.PHONY : getYOrN.o
 
 # target to build an object file
-getYorN.cpp.o:
-	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYorN.cpp.o
-.PHONY : getYorN.cpp.o
+getYOrN.cpp.o:
+	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYOrN.cpp.o
+.PHONY : getYOrN.cpp.o
 
-getYorN.i: getYorN.cpp.i
+getYOrN.i: getYOrN.cpp.i
 
-.PHONY : getYorN.i
+.PHONY : getYOrN.i
 
 # target to preprocess a source file
-getYorN.cpp.i:
-	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYorN.cpp.i
-.PHONY : getYorN.cpp.i
+getYOrN.cpp.i:
+	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYOrN.cpp.i
+.PHONY : getYOrN.cpp.i
 
-getYorN.s: getYorN.cpp.s
+getYOrN.s: getYOrN.cpp.s
 
-.PHONY : getYorN.s
+.PHONY : getYOrN.s
 
 # target to generate assembly for a file
-getYorN.cpp.s:
-	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYorN.cpp.s
-.PHONY : getYorN.cpp.s
+getYOrN.cpp.s:
+	$(MAKE) -f CMakeFiles/myValidationLib.dir/build.make CMakeFiles/myValidationLib.dir/getYOrN.cpp.s
+.PHONY : getYOrN.cpp.s
 
 # Help Target
 help:
@@ -220,9 +220,9 @@ help:
 	@echo "... getValidInt.o"
 	@echo "... getValidInt.i"
 	@echo "... getValidInt.s"
-	@echo "... getYorN.o"
-	@echo "... getYorN.i"
-	@echo "... getYorN.s"
+	@echo "... getYOrN.o"
+	@echo "... getYOrN.i"
+	@echo "... getYOrN.s"
 .PHONY : help
 
 

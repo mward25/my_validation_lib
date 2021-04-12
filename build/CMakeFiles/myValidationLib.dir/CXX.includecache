@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/miles/cpp_stuff/my_validation_lib/getYorN.cpp
+/home/miles/cpp_stuff/my_validation_lib/getYOrN.cpp
 iostream
 -
 climits
 -
-getYorN.hpp
-/home/miles/cpp_stuff/my_validation_lib/getYorN.hpp
+getYOrN.hpp
+/home/miles/cpp_stuff/my_validation_lib/getYOrN.hpp
 
-/home/miles/cpp_stuff/my_validation_lib/getYorN.hpp
+/home/miles/cpp_stuff/my_validation_lib/getYOrN.hpp
+string
+-
 

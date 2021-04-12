@@ -4,6 +4,6 @@
 CMakeFiles/myValidationLib.dir/getValidInt.cpp.o: ../getValidInt.cpp
 CMakeFiles/myValidationLib.dir/getValidInt.cpp.o: ../getValidInt.hpp
 
-CMakeFiles/myValidationLib.dir/getYorN.cpp.o: ../getYorN.cpp
-CMakeFiles/myValidationLib.dir/getYorN.cpp.o: ../getYorN.hpp
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.o: ../getYOrN.cpp
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.o: ../getYOrN.hpp
 

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/miles/cpp_stuff/my_validation_lib/getValidInt.cpp" "/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles/myValidationLib.dir/getValidInt.cpp.o"
-  "/home/miles/cpp_stuff/my_validation_lib/getYorN.cpp" "/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles/myValidationLib.dir/getYorN.cpp.o"
+  "/home/miles/cpp_stuff/my_validation_lib/getYOrN.cpp" "/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles/myValidationLib.dir/getYOrN.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

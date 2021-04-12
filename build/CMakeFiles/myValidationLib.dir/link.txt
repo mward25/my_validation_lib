@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmyValidationLib.a  CMakeFiles/myValidationLib.dir/getValidInt.cpp.o CMakeFiles/myValidationLib.dir/getYorN.cpp.o
+/usr/bin/ar qc libmyValidationLib.a  CMakeFiles/myValidationLib.dir/getValidInt.cpp.o CMakeFiles/myValidationLib.dir/getYOrN.cpp.o
 /usr/bin/ranlib libmyValidationLib.a

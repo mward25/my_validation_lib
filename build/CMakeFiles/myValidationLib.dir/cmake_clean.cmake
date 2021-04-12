@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/myValidationLib.dir/getValidInt.cpp.o"
-  "CMakeFiles/myValidationLib.dir/getYorN.cpp.o"
+  "CMakeFiles/myValidationLib.dir/getYOrN.cpp.o"
   "libmyValidationLib.a"
   "libmyValidationLib.pdb"
 )

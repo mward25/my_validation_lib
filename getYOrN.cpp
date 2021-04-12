@@ -1,6 +1,6 @@
 #include <iostream>
 #include <climits>
-#include "getYorN.hpp"
+#include "getYOrN.hpp"
 using std::string;
 using std::cout;
 using std::cin;
@@ -13,7 +13,7 @@ using std::endl;
 */
 
 
-char getYorN(string promptMessage, string failMessage)
+char getYOrN(string promptMessage, string failMessage)
 {
 
 

@@ -1,6 +1,6 @@
 #include <iostream>
 #include "getValidInt.hpp"
-#include "getYorN.hpp"
+#include "getYOrN.hpp"
 // This is a simple driver to test the library
 
 using std::cout;
@@ -13,7 +13,7 @@ int main()
 	testInt = getValidInt("please enter a valid integer", "Input not valid", 0, 100);
 
 	cout << "getting y or n" << endl;
-	testChar = getYorN("please enter y or n", "Input not valid");
+	testChar = getYOrN("please enter y or n", "Input not valid");
 
 
 }

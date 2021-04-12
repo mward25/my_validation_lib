@@ -87,29 +87,29 @@ CMakeFiles/myValidationLib.dir/getValidInt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myValidationLib.dir/getValidInt.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miles/cpp_stuff/my_validation_lib/getValidInt.cpp -o CMakeFiles/myValidationLib.dir/getValidInt.cpp.s
 
-CMakeFiles/myValidationLib.dir/getYorN.cpp.o: CMakeFiles/myValidationLib.dir/flags.make
-CMakeFiles/myValidationLib.dir/getYorN.cpp.o: ../getYorN.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myValidationLib.dir/getYorN.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myValidationLib.dir/getYorN.cpp.o -c /home/miles/cpp_stuff/my_validation_lib/getYorN.cpp
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.o: CMakeFiles/myValidationLib.dir/flags.make
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.o: ../getYOrN.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myValidationLib.dir/getYOrN.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myValidationLib.dir/getYOrN.cpp.o -c /home/miles/cpp_stuff/my_validation_lib/getYOrN.cpp
 
-CMakeFiles/myValidationLib.dir/getYorN.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myValidationLib.dir/getYorN.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miles/cpp_stuff/my_validation_lib/getYorN.cpp > CMakeFiles/myValidationLib.dir/getYorN.cpp.i
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myValidationLib.dir/getYOrN.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miles/cpp_stuff/my_validation_lib/getYOrN.cpp > CMakeFiles/myValidationLib.dir/getYOrN.cpp.i
 
-CMakeFiles/myValidationLib.dir/getYorN.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myValidationLib.dir/getYorN.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miles/cpp_stuff/my_validation_lib/getYorN.cpp -o CMakeFiles/myValidationLib.dir/getYorN.cpp.s
+CMakeFiles/myValidationLib.dir/getYOrN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myValidationLib.dir/getYOrN.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miles/cpp_stuff/my_validation_lib/getYOrN.cpp -o CMakeFiles/myValidationLib.dir/getYOrN.cpp.s
 
 # Object files for target myValidationLib
 myValidationLib_OBJECTS = \
 "CMakeFiles/myValidationLib.dir/getValidInt.cpp.o" \
-"CMakeFiles/myValidationLib.dir/getYorN.cpp.o"
+"CMakeFiles/myValidationLib.dir/getYOrN.cpp.o"
 
 # External object files for target myValidationLib
 myValidationLib_EXTERNAL_OBJECTS =
 
 libmyValidationLib.a: CMakeFiles/myValidationLib.dir/getValidInt.cpp.o
-libmyValidationLib.a: CMakeFiles/myValidationLib.dir/getYorN.cpp.o
+libmyValidationLib.a: CMakeFiles/myValidationLib.dir/getYOrN.cpp.o
 libmyValidationLib.a: CMakeFiles/myValidationLib.dir/build.make
 libmyValidationLib.a: CMakeFiles/myValidationLib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/miles/cpp_stuff/my_validation_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmyValidationLib.a"
