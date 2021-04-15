@@ -1,2 +1,2 @@
-add_library(getValidStringsAndChars getYOrN.cpp)
+add_library(getValidStringsAndChars getYOrN.cpp getValidChar.cpp)
 target_include_directories(getValidStringsAndChars PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

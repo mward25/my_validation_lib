@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.17)
 add_library(myValidationLib myValidationLib.cpp)
 
 # "include source files for number validation"
-option(INCLUDE_VALID_NUMBERS  ON)
+option(INCLUDE_VALID_NUMBERS ON)
 
 # "include source files for string and char validation" 
 option(INCLUDE_VALID_STRINGS_AND_CHARS ON)
