@@ -10,12 +10,15 @@
 | Input 2:                                                                                |
 |         The message the User shall receive if they did not enter a valid input          |
 | Input 3:                                                                                |
-|        An array of valid chars the user may input                                       |
+|        An array of valid chars or strings the user may input                            |
 | Input 4:                                                                                |
 |        Size of Input 3                                                                  |
 | Input 5:                                                                                |
-|        Determines weather we will have are input be case sensitive, default is false    |
+|        Determines weather we will have are input be case sensitive                      |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-char getValidChar(std::string promptMessage, std::string failMessage, const char validChars[], int sizeOfValidChars, char caseSensetive = false);
+char getValidOption(std::string promptMessage, std::string failMessage, const char validChars[], int sizeOfValidChars, bool caseSensetive);
+std::string getValidOption(std::string promptMessage, std::string failMessage, const std::string validStrings[], int sizeOfValidStrings, bool caseSensetive);
+
+std::string makeStringLowercase(const std::string &inputString);
 #endif
