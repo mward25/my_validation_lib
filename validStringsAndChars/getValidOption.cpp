@@ -92,7 +92,7 @@ string makeStringLowercase(const string &inputString)
 
 char getValidOption(string promptMessage, string failMessage, const char validChars[], int sizeOfValidChars, bool caseSensetive)
 {
-	cout << "valid char" << endl;
+	// cout << "valid char" << endl;
 	char buffer;
 	bool valid = false;
 	cout << promptMessage << endl;
@@ -120,7 +120,7 @@ char getValidOption(string promptMessage, string failMessage, const char validCh
 
 string getValidOption(string promptMessage, string failMessage, const string validStrings[], int sizeOfValidStrings, bool caseSensetive)
 {
-	cout << "valid string " << endl;
+	// cout << "valid string " << endl;
 	string buffer;
 	bool valid = false;
 	cout << promptMessage << endl;
