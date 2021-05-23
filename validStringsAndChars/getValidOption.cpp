@@ -129,9 +129,9 @@ string getValidOption(string promptMessage, string failMessage, const string val
 		cin >> buffer;
 		if (caseSensetive == false)
 		{
-			cout << "buffer is " << buffer << endl;
+			// cout << "buffer is " << buffer << endl;
 			buffer = makeStringLowercase(buffer);
-			cout << "lowercase is " << buffer << endl;
+			// cout << "lowercase is " << buffer << endl;
 		}
 
 		if (simpleLinearSearch(validStrings, sizeOfValidStrings, buffer, caseSensetive) == false)
