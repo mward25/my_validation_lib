@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <climits>
 #include "getValidNumber.hpp"
 
 using std::cout;
@@ -8,9 +7,7 @@ using std::endl;
 using std::cin;
 using std::string;
 
-// Constants
-const int BIGNUM = INT_MAX;
-const char ENDLINE = '\n';
+
 
 
 /*
@@ -22,7 +19,13 @@ const char ENDLINE = '\n';
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-void getValidNumber(int &outputInt, string promptMessage, string failMessage, int minVal, int maxVal) 
+
+#ifdef USE_TEMPLATE_FOR_VALID
+
+#endif
+
+#ifdef USE_OVERLOAD_FOR_VALID
+int getValidNumber(string promptMessage, string failMessage, int minVal, int maxVal) 
 {
 	// Output promptMessage to the console
 	cout << promptMessage << endl;
@@ -55,7 +58,7 @@ void getValidNumber(int &outputInt, string promptMessage, string failMessage, in
 			}
 		} while (inputInt < minVal || inputInt > maxVal || valid == false);
 	// return the valid integer
-	outputInt = inputInt;
+	return inputInt;
 }
 /*
 const double BIGNUM = double_MAX;
@@ -66,7 +69,7 @@ const double MAX_double = BIGNUM-1; // Maximum double the computer can hold
 */
 
 
-void getValidNumber(double &outputDouble, string promptMessage, string failMessage, double minVal, double maxVal)
+double getValidNumber(string promptMessage, string failMessage, double minVal, double maxVal)
 {
 
 	// Output promptMessage to the console
@@ -106,13 +109,13 @@ void getValidNumber(double &outputDouble, string promptMessage, string failMessa
 	} while (inputDouble < minVal || inputDouble > maxVal || valid == false);
 
 	// return the valid double
-	outputDouble = inputDouble;
+	return inputDouble;
 }
 
 
 
 
-void getValidNumber(float &outputFloat, string promptMessage, string failMessage, float minVal, float maxVal)
+float getValidNumber(string promptMessage, string failMessage, float minVal, float maxVal)
 {
 
 	// Output promptMessage to the console
@@ -152,5 +155,6 @@ void getValidNumber(float &outputFloat, string promptMessage, string failMessage
 	} while (inputFloat < minVal || inputFloat > maxVal || valid == false);
 
 	// return the valid float
-	outputFloat = inputFloat;
+	return inputFloat;
 }
+#endif

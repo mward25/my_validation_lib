@@ -22,22 +22,38 @@ int main()
 	float testFloat;
 	char testChar;
 	string testString;
-	cout << "getting valid int" << endl;
-	getValidNumber(testInt, "please enter a valid integer", "Input not valid", 0, 100);
-	cout << "you entered " << testInt << endl;
+	#ifdef USE_OVERLOAD_FOR_VALID
+		cout << "getting valid int" << endl;
+		testInt = getValidNumber("please enter a valid integer", "Input not valid", static_cast<int>(0), static_cast<int>(100));
+		cout << "you entered " << testInt << endl;
+
+		cout << "getting valid double" << endl;
+		testDouble = getValidNumber("please enter a valid double", "Input not valid", static_cast<double>(0), static_cast<double>(100));
+		cout << "you entered " << testDouble << endl;
+
+		cout << "getting valid float" << endl;
+		testFloat = getValidNumber("please enter a valid float", "Input not valid", static_cast<float>(0), static_cast<float>(100));
+		cout << "you entered " << testFloat << endl;
+	#endif
+
+	#ifdef USE_TEMPLATE_FOR_VALID
+		cout << "getting valid int" << endl;
+		testInt = getValidNumber<int>("please enter a valid integer", "Input not valid", 0, 100);
+		cout << "you entered " << testInt << endl;
+
+		cout << "getting valid double" << endl;
+		testDouble = getValidNumber<double>("please enter a valid double", "Input not valid", 0, 100);
+		cout << "you entered " << testDouble << endl;
+
+		cout << "getting valid float" << endl;
+		testFloat = getValidNumber<float>("please enter a valid float", "Input not valid", 0, 100);
+		cout << "you entered " << testFloat << endl;
+	#endif
 
 	cout << "getting y or n" << endl;
 	testChar = getYOrN("please enter y or n", "Input not valid");
 	cout << "you entered" << testChar << endl;
 
-	cout << "getting valid double" << endl;
-	getValidNumber(testDouble, "please enter a valid double", "Input not valid", 0, 100);
-	cout << "you entered " << testDouble << endl;
-
-	cout << "getting valid float" << endl;
-	getValidNumber(testFloat, "please enter a valid float", "Input not valid", 0, 100);
-	cout << "you entered " << testFloat << endl;
-	
 	cout << "getting valid char" << endl;
 	testChar = getValidOption("please enter a y 7 3 5 Y S, this is case sensitive", "input not valid", TEST_CHAR_ARRAY, TEST_CHAR_ARRAY_SIZE, true);
 
